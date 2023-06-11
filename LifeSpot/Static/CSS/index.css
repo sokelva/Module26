@@ -1,9 +1,13 @@
 ﻿<style >/* Свойства стиля элемента. Подробнее о них - в модуле по CSS */
 /* Простые селекторы*/
-footer, body, .video-container {
-    /*background-color: rgb(0, 0, 255, 0.2);*/
-    background-color: linen;
-    /*background-color: #111;*/
+
+header, .video-container, footer {
+    background-color: lavender;
+}
+
+body {
+    padding-left: 11%;
+    background-color: lavender;
 }
 
 .video-container {
@@ -11,6 +15,7 @@ footer, body, .video-container {
     padding-left: 1%;
     padding-top: 1%;
 }
+
 .navbar{
     color: darkgray;
     padding-left: 15%;
@@ -23,16 +28,15 @@ header {
     padding-left: 1%;
     padding-top: 1.2%;
 }
-/*.navbar.a:visited {
-    color: white;
-}*/
 
+ Стили футера 
 footer {
     position: absolute;
     bottom: 0;
     font-size: medium;
     color: dimgrey;
-    line-height: 40%
+    line-height: 10%;
+    padding-left: 1%;
 }
 
 aside {
@@ -47,14 +51,15 @@ aside {
     padding-top: 2%;
     font-size: large;
 }
-body {
-    padding-left: 11%;
-}
+
+
 header, footer, aside, body, .navbar, .video-container {
     font-family: "Helvetica 65 Medium", sans-serif;
 }
 
-.one {
+
+
+/*.one {
     background-color: #FF0000;
 }
 
@@ -62,12 +67,12 @@ header, footer, aside, body, .navbar, .video-container {
     background-color: #FFFF00;
 }
 
-.three {
+.three {*/
     /*background-color: #0000FF;*/
     /*background-color: rgb(0, 0, 255, 0.2);*/
-    background-color: linen;
+    /*background-color: linen;*/
     /*насыщенность цвета в rgb формате от 0 до 1*/
-}
+/*}
 
 .container {
     display: flex;
@@ -80,6 +85,6 @@ header, footer, aside, body, .navbar, .video-container {
     width: 100px;
     height: 100px;
     margin: 0 10px;
-}
+}*/
 
 </style >
